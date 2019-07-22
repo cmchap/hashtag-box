@@ -45,7 +45,7 @@ function App() {
 
   useEffect(() => {
     //load hashtags from firestore one time at first render
-    // getHashtagSets();
+    getHashtagSets();
   }, []);
 
   const addHashtagSet = values => {
