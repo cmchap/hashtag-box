@@ -8,6 +8,7 @@ import SetList from "./components/SetList.js";
 import BottomBar from "./components/BottomBar.js";
 import SetAddPage from "./components/SetAdd.js";
 import Header from "./components/Header.js";
+import HashtagList from "./components/HashtagList.js";
 
 import firebaseMock from "./firebaseMock";
 
@@ -119,6 +120,10 @@ function App() {
         deleteHashtagSet={deleteHashtagSet}
       />
       <SetAddPage addHashtagSet={addHashtagSet} />
+      <HashtagList
+        hashtagSets={hashtagSets}
+        selectedHashtagSetNames={selectedHashtagSetNames}
+      />
       <BottomBar
         hashtagSets={hashtagSets}
         selectedHashtagSetNames={selectedHashtagSetNames}
