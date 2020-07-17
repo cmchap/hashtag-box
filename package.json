@@ -8,7 +8,7 @@
     "antd": "3.20.2",
     "firebase": "6.3.0",
     "gh-pages": "2.0.1",
-    "lodash": "4.17.14",
+    "lodash": "4.17.19",
     "prop-types": "15.7.2",
     "react": "16.8.6",
     "react-copy-to-clipboard": "5.0.1",
